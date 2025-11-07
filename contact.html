@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Auctron</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <div class="logo-placeholder me-2">A</div>
+          <span class="brand-title">uctron</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="auctions.html">Auctions</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-5">
+    <section class="text-center mb-5">
+      <h1 class="display-5 fw-bold text-primary">Contact Us</h1>
+      <p class="lead text-muted">Have a question?</p>
+    </section>
+
+    <section class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="card shadow-sm border-0 rounded-4">
+          <div class="card-body p-4">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label fw-semibold">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label fw-semibold">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label fw-semibold">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Write your message..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row text-center mt-5">
+      <div class="col-md-4 mb-4">
+        <div class="p-3 border rounded-4 shadow-sm h-100">
+          <h6 class="text-primary fw-semibold mb-1">Email</h6>
+          <p class="text-muted small mb-0">get_support@auctron.com</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="p-3 border rounded-4 shadow-sm h-100">
+          <h6 class="text-primary fw-semibold mb-1">Phone</h6>
+          <p class="text-muted small mb-0">+77012355032</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="p-3 border rounded-4 shadow-sm h-100">
+          <h6 class="text-primary fw-semibold mb-1">Office</h6>
+          <p class="text-muted small mb-0">123 Martin Block C1</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-3">
+    <div class="container d-flex justify-content-between small">
+      <div>© <span id="year"></span> Auctron</div>
+      <div>
+        <a href="contact.html">Contact</a> · <a href="about.html">About</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

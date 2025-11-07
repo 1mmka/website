@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auctron</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <div class="logo-placeholder me-2">A</div>
+                    <span class="brand-title">uctron</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="auctions.html">Auctions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+  </header>
+
+    <!---->
+<main class="container my-5">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-lg-6">
+      <h1 class="display-5 hero-title">Auctron - modern auction platform</h1>
+      <p class="lead hero-subtitle">Discover, bid and win exclusive items from trusted sellers worldwide.</p>
+      <a href="auctions.html" class="btn btn-primary btn-lg mt-3">Browse Auctions</a>
+    </div>
+
+    <div class="col-lg-5 mt-4 mt-lg-0">
+      <div id="featuredCarousel" class="carousel slide shadow-sm" data-bs-ride="carousel">
+        <div class="carousel-inner rounded-4 overflow-hidden">
+          <div class="carousel-item active">
+            <img src="assets/images/nn.jpeg" class="d-block w-100" alt="Item 1">
+            <div class="carousel-caption bg-dark bg-opacity-50 rounded-3 p-2">
+              <h5>Number Nine Shield Hoodie Grey</h5>
+              <p>Starting bid: 120$</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/nn2.jpeg" class="d-block w-100" alt="Item 2">
+            <div class="carousel-caption bg-dark bg-opacity-50 rounded-3 p-2">
+              <h5>Number (N)ine SS04 Skull Pullover</h5>
+              <p>Starting bid: 450$</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/nn3.jpeg" class="d-block w-100" alt="Item 3">
+            <div class="carousel-caption bg-dark bg-opacity-50 rounded-3 p-2">
+              <h5>Number (N)ine Skull Velour</h5>
+              <p>Starting bid: 40$</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <section class="row mt-5 text-center">
+      <div class="col-md-4">
+        <div class="feature-card p-3">
+          <h6>Secure Bidding</h6>
+          <p class="small mb-0">Two-step verification & encrypted bids.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-card p-3">
+          <h6>Trusted Sellers</h6>
+          <p class="small mb-0">Moderated listings & seller ratings.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-card p-3">
+          <h6>Fast Checkout</h6>
+          <p class="small mb-0">Integrated payment options.</p>
+        </div>
+      </div>
+    </section>
+</main>
+
+    <footer class="site-footer bg-light py-3">
+        <div class="container d-flex justify-content-between small">
+            <div>© <span id="year"></span> Auctron</div>
+            <div>
+                <a href="contact.html">Contact</a> · <a href="about.html">About</a>
+            </div>
+        </div>
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auctron - Auctions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <div class="logo-placeholder me-2">A</div>
+          <span class="brand-title">uctron</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="auctions.html">Auctions</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-5">
+    <h1 class="text-center mb-4 fw-bold">Clothing Auctions</h1>
+
+    <div class="d-flex justify-content-center flex-wrap mb-4 gap-2">
+      <button class="btn btn-outline-dark active" data-category="all">All</button>
+      <button class="btn btn-outline-dark" data-category="hoodies">Hoodies</button> 
+      <button class="btn btn-outline-dark" data-category="jackets">Jackets</button>
+      <button class="btn btn-outline-dark" data-category="sneakers">Sneakers</button>
+      <button class="btn btn-outline-dark" data-category="accessories">Accessories</button>
+    </div>
+
+    <div class="row g-4" id="auctionGrid">
+      <!-- Hoodies -->
+      <div class="col-md-4 auction-item" data-category="hoodies"
+          data-title="Number (N)ine SS04 Skull Hoodie"
+          data-image="assets/images/nn2.jpeg"
+          data-price="450"
+          data-end="2025-11-20"
+          data-description="Number (N)ine SS04 Skull Hoodie">
+        <div class="card shadow-sm border-0">
+          <img src="assets/images/nn2.jpeg" class="card-img-top" alt="Hoodie">
+          <div class="card-body">
+            <h5 class="card-title">Number (N)ine SS04 Skull Hoodie</h5>
+            <p class="card-text text-muted">Starting bid: $450<br>Auction ends: 2025-11-20</p>
+            <a href="#" class="btn btn-primary w-100">Place Bid</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 auction-item" data-category="hoodies"
+      data-title="Number (N)ine Velour Skull Hoodie"
+          data-image="assets/images/nn3.jpeg"
+          data-price="40"
+          data-end="2025-11-25"
+          data-description="Number (N)ine Velour Skull Hoodie">
+        <div class="card shadow-sm border-0">
+          <img src="assets/images/nn3.jpeg" class="card-img-top" alt="Hoodie">
+          <div class="card-body">
+            <h5 class="card-title">Number (N)ine Velour Skull Hoodie</h5>
+            <p class="card-text text-muted">Starting bid: $40<br>Auction ends: 2025-11-25</p>
+            <a href="#" class="btn btn-primary w-100">Place Bid</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 auction-item" data-category="hoodies"
+      data-title="Number Nine Shield Hoodie Grey"
+          data-image="assets/images/nn.jpeg"
+          data-price="120"
+          data-end="2025-12-20"
+          data-description="Number Nine Shield Hoodie Grey">
+        <div class="card shadow-sm border-0">
+          <img src="assets/images/nn.jpeg" class="card-img-top" alt="Hoodie">
+          <div class="card-body">
+            <h5 class="card-title">Number Nine Shield Hoodie Grey</h5>
+            <p class="card-text text-muted">Starting bid: $120<br>Auction ends: 2025-12-20</p>
+            <a href="#" class="btn btn-primary w-100">Place Bid</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 auction-item" data-category="hoodies"
+      data-title="Tape Type Ripped Pocket Blue Hoodie"
+          data-image="assets/images/balenci.jpeg"
+          data-price="540"
+          data-end="2026-01-10"
+          data-description="Tape Type Ripped Pocket Blue Hoodie">
+        <div class="card shadow-sm border-0">
+          <img src="assets/images/balenci.jpeg" class="card-img-top" alt="Hoodie">
+          <div class="card-body">
+            <h5 class="card-title">Tape Type Ripped Pocket Blue Hoodie</h5>
+            <p class="card-text text-muted">Starting bid: $540<br>Auction ends: 2026-01-10</p>
+            <a href="#" class="btn btn-primary w-100">Place Bid</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 auction-item" data-category="hoodies"
+      data-title="Burberry Grey Zip Up Hoodie"
+          data-image="assets/images/burberry.jpg"
+          data-price="350"
+          data-end="2026-01-21"
+          data-description="Burberry Grey Zip Up Hoodie">
+        <div class="card shadow-sm border-0">
+          <img src="assets/images/burberry.jpg" class="card-img-top" alt="Hoodie">
+          <div class="card-body">
+            <h5 class="card-title">Burberry Grey Zip Up Hoodie</h5>
+            <p class="card-text text-muted">Starting bid: $350<br>Auction ends: 2026-01-21</p>
+            <a href="#" class="btn btn-primary w-100">Place Bid</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jackets -->
+      <div class="col-md-4 auction-item" data-category="jackets"
+       data-title="BAPE Shark Camo Jacket"
+          data-image="assets/images/bape.jpeg"
+          data-price="380"
+          data-end="2025-12-10"
+          data-description="BAPE Shark Camo Jacket">
+        <div class="card shadow-sm border-0">
+          <img src="assets/images/bape.jpeg" class="card-img-top" alt="Jacket">
+          <div class="card-body">
+            <h5 class="card-title">BAPE Shark Camo Jacket</h5>
+            <p class="card-text text-muted">Starting bid: $380<br>Auction ends: 2025-12-10</p>
+            <a href="#" class="btn btn-primary w-100">Place Bid</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-4 auction-item" data-category="jackets"
+        data-title="Stüssy Workwear Denim Jacket"
+          data-image="assets/images/stussy.jpg"
+          data-price="260"
+          data-end="2025-12-15"
+          data-description="Stüssy Workwear Denim Jacket">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/stussy.jpg" class="card-img-top" alt="Jacket">
+            <div class="card-body">
+              <h5 class="card-title">Stüssy Workwear Denim Jacket</h5>
+              <p class="card-text text-muted">Starting bid: $260<br>Auction ends: 2025-12-15</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 auction-item" data-category="jackets"
+        data-title="The North Face 700 Nuptse Puffer Jacket"
+          data-image="assets/images/face.jpg"
+          data-price="340"
+          data-end="2025-11-27"
+          data-description="The North Face 700 Nuptse Puffer Jacket">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/face.jpg" class="card-img-top" alt="Jacket">
+            <div class="card-body">
+              <h5 class="card-title">The North Face 700 Nuptse Puffer Jacket</h5>
+              <p class="card-text text-muted">Starting bid: $340<br>Auction ends: 2025-11-27</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 auction-item" data-category="jackets"
+        data-title="Vetements Oversized Bomber Jacket"
+          data-image="assets/images/vetmo.jpg"
+          data-price="520"
+          data-end="2025-12-02"
+          data-description="Vetements Oversized Bomber Jacket">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/vetmo.jpg" class="card-img-top" alt="Jacket">
+            <div class="card-body">
+              <h5 class="card-title">Vetements Oversized Bomber Jacket</h5>
+              <p class="card-text text-muted">Starting bid: $520<br>Auction ends: 2025-12-02</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 auction-item" data-category="jackets"
+        data-title="Vintage Leather Moto Jacket"
+          data-image="assets/images/leather.jpeg"
+          data-price="290"
+          data-end="2025-11-24"
+          data-description="Vintage Leather Moto Jacket">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/leather.jpeg" class="card-img-top" alt="Jacket">
+            <div class="card-body">
+              <h5 class="card-title">Vintage Leather Moto Jacket</h5>
+              <p class="card-text text-muted">Starting bid: $290<br>Auction ends: 2025-11-24</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- Sneakers -->
+        <div class="col-md-4 auction-item" data-category="sneakers"
+        data-title="Visvim FBT Elk Moc Sneakers"
+          data-image="assets/images/visvim.jpg"
+          data-price="750"
+          data-end="2025-12-05"
+          data-description="Visvim FBT Elk Moc Sneakers">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/visvim.jpg" class="card-img-top" alt="Sneakers">
+            <div class="card-body">
+              <h5 class="card-title">Visvim FBT Elk Moc Sneakers</h5>
+              <p class="card-text text-muted">Starting bid: $750<br>Auction ends: 2025-12-05</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 auction-item" data-category="sneakers"
+        data-title="A Bathing Ape Bapesta “College Dropout"
+          data-image="assets/images/ape.jpg"
+          data-price="480"
+          data-end="2025-12-10"
+          data-description="A Bathing Ape Bapesta “College Dropout">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/ape.jpeg" class="card-img-top" alt="Sneakers">
+            <div class="card-body">
+              <h5 class="card-title">A Bathing Ape Bapesta “College Dropout”</h5>
+              <p class="card-text text-muted">Starting bid: $480<br>Auction ends: 2025-12-10</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 auction-item" data-category="sneakers"
+        data-title="ASICS Gel-Kayano 14 “Kiko Kostadinov"
+          data-image="assets/images/asics.jpg"
+          data-price="320"
+          data-end="2025-11-28"
+          data-description="ASICS Gel-Kayano 14 “Kiko Kostadinov">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/asics.jpg" class="card-img-top" alt="Sneakers">
+            <div class="card-body">
+              <h5 class="card-title">ASICS Gel-Kayano 14 “Kiko Kostadinov”</h5>
+              <p class="card-text text-muted">Starting bid: $320<br>Auction ends: 2025-11-28</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 auction-item" data-category="sneakers"
+        data-title="ASICS Gel-Kayano 14 “Kiko Kostadinov"
+          data-image="assets/images/sandal.jpg"
+          data-price="220"
+          data-end="2025-12-03"
+          data-description="ASICS Gel-Kayano 14 “Kiko Kostadinov">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/sandal.jpg" class="card-img-top" alt="Sneakers">
+            <div class="card-body">
+              <h5 class="card-title">Suicoke KISEE-V Sandal Black</h5>
+              <p class="card-text text-muted">Starting bid: $220<br>Auction ends: 2025-12-03</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+      <!-- Accessories -->
+        <div class="col-md-4 auction-item" data-category="accessories"
+        data-title="Visvim Leather Zip Wallet"
+          data-image="assets/images/visvimvisvim.jpeg"
+          data-price="420"
+          data-end="2025-12-07"
+          data-description="Visvim Leather Zip Wallet">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/visvimvisvim.jpeg" class="card-img-top" alt="Wallet">
+            <div class="card-body">
+              <h5 class="card-title">Visvim Leather Zip Wallet</h5>
+              <p class="card-text text-muted">Starting bid: $420<br>Auction ends: 2025-12-07</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 auction-item" data-category="accessories"
+        data-title="Porter Yoshida & Co. Tanker 2Way Bag"
+          data-image="assets/images/porter_yoshida_tank_bag.jpeg"
+          data-price="390"
+          data-end="2025-11-29"
+          data-description="Porter Yoshida & Co. Tanker 2Way Bag">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/porter_yoshida_tank_bag.jpeg" class="card-img-top" alt="Bag">
+            <div class="card-body">
+              <h5 class="card-title">Porter Yoshida & Co. Tanker 2Way Bag</h5>
+              <p class="card-text text-muted">Starting bid: $390<br>Auction ends: 2025-11-29</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 auction-item" data-category="accessories"
+        data-title="Comme des Garçons Classic Wallet"
+          data-image="assets/images/porter_yoshida_tank_bag.jpeg"
+          data-price="260"
+          data-end="2025-12-01"
+          data-description="Comme des Garçons Classic Wallet">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/cdg_wallet.jpg" class="card-img-top" alt="Wallet">
+            <div class="card-body">
+              <h5 class="card-title">Comme des Garçons Classic Wallet</h5>
+              <p class="card-text text-muted">Starting bid: $260<br>Auction ends: 2025-12-01</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 auction-item" data-category="accessories"
+        data-title="A Bathing Ape Logo Canvas Belt"
+          data-image="assets/images/bape_belt.jpeg"
+          data-price="180"
+          data-end="2025-12-03"
+          data-description="A Bathing Ape Logo Canvas Belt">
+          <div class="card shadow-sm border-0">
+            <img src="assets/images/bape_belt.jpeg" class="card-img-top" alt="Belt">
+            <div class="card-body">
+              <h5 class="card-title">A Bathing Ape Logo Canvas Belt</h5>
+              <p class="card-text text-muted">Starting bid: $180<br>Auction ends: 2025-12-03</p>
+              <a href="#" class="btn btn-primary w-100">Place Bid</a>
+            </div>
+          </div>
+        </div>    
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
